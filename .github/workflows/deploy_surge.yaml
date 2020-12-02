@@ -45,4 +45,4 @@ jobs:
       
       # deplloying surge
       - name: deploying surge 
-        run: surge ./build 2nd-lecture.surge.sg --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build 2nd-lecture.surge.sh --token ${{secrets.SURGE_TOKEN}}
